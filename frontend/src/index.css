@@ -1,0 +1,96 @@
+
+body{
+    font-family: sans-serif !important;
+    font-weight: bold;
+    background-color: black;
+}
+.display{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-container{
+    height: 70vh;
+    width: 100%;
+    object-fit: fill;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(../public/image/header.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.search-area{
+    height: 60vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.search-input{
+    width: 50vmin;
+    outline: none;
+    padding: 4px;
+    border-radius: 7px;
+    border: none;
+    letter-spacing: 1px;
+}
+.card-image{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-container{
+    border: none;
+    background-color: lightblue;
+}
+.card-btn{
+    height: fit-content;
+}
+
+.display-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    color: white;
+    border-bottom: 2px solid red;
+    width: fit-content;
+    font-size: 27px;
+}
+
+/* sign up */
+.body{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-signup{
+    background-color: white;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius:10px ;
+}
+.input{
+    margin: 7px 0;
+    width: 80%;
+    padding: 7px;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+/*  Login */
+.container-login{
+    background-color: white;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius:10px ;
+}
+
+/* card */
+option{
+    font-size: 17px;
+}
+select{
+    outline: none;
+    border-radius: 7px;
+    width: 60px;
+   
+}
